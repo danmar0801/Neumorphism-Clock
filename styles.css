@@ -57,6 +57,10 @@ body{
     inset 0 0 30px rgba(0,0,0,0.4);
 }
 
+img{
+    position: relative;
+}
+
 .hand{
     position: absolute;
     margin: auto;
