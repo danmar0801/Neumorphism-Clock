@@ -56,3 +56,33 @@ body{
     box-shadow: 15px 15px 35px rgba(0,0,0,0.2),
     inset 0 0 30px rgba(0,0,0,0.4);
 }
+
+.hand{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+
+}
+.hour{
+    height: 60px;
+    width: 8px;
+    top: 100px;
+    background-color: #ffffff;
+}
+
+.minute{
+    height: 80px;
+    width: 5px;
+    top: 80px;
+    background-color: #4d71e6;
+}
+
+.second{
+    height: 90px;
+    width: 3px;
+    top: 70px;
+    background-color: #ff0000;
+}
